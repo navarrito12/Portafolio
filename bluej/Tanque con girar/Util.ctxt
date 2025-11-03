@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Util
+comment1.params=
+comment1.target=Util()
+comment2.params=x\ a\ b
+comment2.target=boolean\ en(int,\ int,\ int)
+comment3.params=a\ b
+comment3.target=int\ generarAleatorio(int,\ int)
+numComments=4
