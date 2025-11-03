@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Pajaro
+comment1.params=apodo\ peso\ maxPeso
+comment1.target=Pajaro(java.lang.String,\ int,\ int)
+comment10.params=
+comment10.target=void\ morir()
+comment2.params=peso\ maxPeso
+comment2.target=boolean\ validarPesos(int,\ int)
+comment3.params=apodo
+comment3.target=void\ setApodo(java.lang.String)
+comment4.params=peso
+comment4.target=void\ setPeso(int)
+comment5.params=maxPeso
+comment5.target=int\ validarMaxPeso(int)
+comment6.params=cantidad
+comment6.target=void\ comer(int)
+comment7.params=cantidad
+comment7.target=void\ engordar(int)
+comment8.params=
+comment8.target=void\ envenenar()
+comment9.params=
+comment9.target=boolean\ estaVivo()
+numComments=11
