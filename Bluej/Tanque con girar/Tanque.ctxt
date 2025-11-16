@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tanque
+comment1.params=
+comment1.target=Tanque()
+comment2.params=fila\ columna
+comment2.target=Tanque(int,\ int)
+comment3.params=direccion
+comment3.target=Tanque(char)
+comment4.params=valor\ min\ max\ campo
+comment4.target=void\ validarRango(int,\ int,\ int,\ java.lang.String)
+comment5.params=direccion
+comment5.target=void\ setDireccion(char)
+comment6.params=distancia
+comment6.target=void\ avanzar(int)
+comment7.params=
+comment7.target=void\ girar()
+comment8.params=n
+comment8.target=void\ girar(int)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
