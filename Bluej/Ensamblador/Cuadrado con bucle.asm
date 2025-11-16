@@ -1,0 +1,16 @@
+ORG 8000h
+
+LD HL,4000h
+LD (HL),255
+LD B,6
+
+bucle:
+INC H
+LD (HL),195
+DJNZ bucle
+
+INC H
+LD (HL),255
+LD HL,5800h
+LD (HL),17
+RET
