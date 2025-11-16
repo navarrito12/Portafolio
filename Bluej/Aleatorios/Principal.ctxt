@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ b
+comment2.target=int\ generar(int,\ int)
+comment3.params=a\ b
+comment3.target=int\ generar2(int,\ int)
+numComments=4
