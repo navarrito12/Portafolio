@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Tanque
+comment1.params=
+comment1.target=Tanque()
+comment10.params=
+comment10.target=void\ girar()
+comment11.params=distancia
+comment11.target=void\ avanzar(int)
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=fila\ columna
+comment2.target=Tanque(int,\ int)
+comment3.params=fila\ columna\ direccion
+comment3.target=Tanque(int,\ int,\ char)
+comment4.params=
+comment4.target=int\ getFila()
+comment5.params=
+comment5.target=int\ getColumna()
+comment6.params=
+comment6.target=char\ getDireccion()
+comment7.params=fila
+comment7.target=void\ setFila(int)
+comment8.params=columna
+comment8.target=void\ setColumna(int)
+comment9.params=direccion
+comment9.target=void\ setDireccion(char)
+numComments=13
