@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Alumno
+comment1.params=
+comment1.target=Alumno()
+comment2.params=alias
+comment2.target=Alumno(java.lang.String)
+comment3.params=alias\ anioNac
+comment3.target=Alumno(java.lang.String,\ int)
+comment4.params=
+comment4.target=int\ edad()
+comment5.params=
+comment5.target=java.lang.String\ nombreCompleto()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=alias\ nombre\ ape1\ ape2\ anioNac
+comment7.target=Alumno(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+numComments=8
