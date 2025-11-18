@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s\ pos
+comment2.target=java.lang.String\ m1(java.lang.String,\ int)
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s
+comment2.target=java.lang.String\ eliminarEspacios(java.lang.String)
+comment3.params=s\ c
+comment3.target=java.lang.String\ eliminarCaracter(java.lang.String,\ char)
+comment4.params=s
+comment4.target=void\ m3(java.lang.String)
+comment5.params=s
+comment5.target=boolean\ esPalindromo(java.lang.String)
+comment6.params=s\ delim
+comment6.target=void\ m2(java.lang.String,\ java.lang.String)
+comment7.params=s
+comment7.target=void\ m1(java.lang.String)
+numComments=8
