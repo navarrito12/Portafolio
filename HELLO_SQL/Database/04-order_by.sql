@@ -1,3 +1,7 @@
+/*
+Sirve para ordenar, puedes tambien ordenar ascendente o descendente
+*/
+
 SELECT * FROM users ORDER BY age;
 
 SELECT * FROM users ORDER BY age ASC;
