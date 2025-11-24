@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=caracteres\ texto
+comment2.target=int\ contar(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ NOMBRE\:\ contar\r\n\ DESCRIPCI\u00D3N\:\ cuenta\ el\ total\ de\ apariciones\ de\ caracteres\ en\ texto.\ No\ pueden\ haber\r\n\ caracteres\ repetidos\ en\ el\ par\u00E1metro\ caracteres\r\n\ PAR\u00C1METROS\:\r\n\ caracteres\ \ \ Caracteres\ a\ contar\ en\ texto\r\n\ texto\ \ \ \ \ \ \ \ Texto\ donde\ buscar\ los\ caracteres\r\n\ DEVUELVE\:\ el\ n\u00FAmero\ total\ de\ apariciones\ de\ los\ caracteres\ en\ texto\r\n
+comment3.params=s
+comment3.target=boolean\ hayRepetidos(java.lang.String)
+numComments=4
