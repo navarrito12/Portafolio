@@ -1,0 +1,10 @@
+RELACIÓN 1:1
+    Relación en ambos sentidos.
+    Ejemplo: 'A' está asociado con el DNI nº 2 y, el nº2 está asociado al User_ID 'A'.
+ 
+    T1                  T2
+    User_ID             DNI             User_ID
+    1 A                 1 025125487A    2
+    2 B                 2 156897356B    1
+    3 C                 3 259876345C    4
+    4 D                 4 489562367D    3

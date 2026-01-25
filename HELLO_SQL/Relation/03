@@ -1,0 +1,4 @@
+Relación M:N
+    Relación de muchos a muchos.
+    Ejemplo: Una persona puede saber diferentes lenguajes de programación y 
+             los lenguajes de programacion pueden ser asociados a varias personas.
