@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jansi-2.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/jansi-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://fusesource.github.io/jansi/documentation/api/index.html" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/lib/src/jansi-jansi-2.4.0.zip!/jansi-jansi-2.4.0/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/src/lib/src/jansi-jansi-2.4.0.zip!/jansi-jansi-2.4.0/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
