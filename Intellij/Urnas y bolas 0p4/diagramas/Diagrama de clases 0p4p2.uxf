@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>13</x>
+      <y>0</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+bg=#2E9AFE
+Principal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>0</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+bg=#2E9AFE
+Urna</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>182</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+bg=#2E9AFE
+Bola</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>0</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;crea&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>104</x>
+      <y>39</y>
+      <w>169</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;crea&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>39</y>
+      <w>130</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+contiene v
+m1=*
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>312</y>
+      <w>221</w>
+      <h>429</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+valign=center
+bg=#2E9AFE
+Urna
+-
+_-MINCAPACIDAD: int = 1_
+-bolas: Bola[] &lt;&lt;R&gt;&gt;
+-
++Urna(capacidad:int)
+&lt;&lt;accesores&gt;&gt;
++getCapacidad(): int
+&lt;&lt;otros metodos&gt;&gt;
++agregar()
++agregar(bola: Bola)
++agregar(color: Color)
++estaLlena(): boolean
++estaVacia(): boolean
++llenar()
++numBolas(): int
+-sacar(pos:int): Bola
++sacar(): Bola
++sacar(color: Color): Bola
++vaciar()
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>52</x>
+      <y>312</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#2E9AFE
+Principal
+-
+-
+_+main(args:String[])_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>520</x>
+      <y>910</y>
+      <w>403</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+sacar()
+No es posible sacar una bola de una urna vacia.
+En ese caso el programa termina con error.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>650</y>
+      <w>104</w>
+      <h>286</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>533</x>
+      <y>819</y>
+      <w>351</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+sacar(pos)
+Saca la bola que está en la posición pos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>624</y>
+      <w>117</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>494</x>
+      <y>1014</y>
+      <w>403</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+sacar(color)
+No es posible sacar una bola de una urna vacia.
+En ese caso el programa termina con error.
+
+Si no existe una bola del color deseado
+devuelve null</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>676</y>
+      <w>78</w>
+      <h>364</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>0</x>
+      <y>975</y>
+      <w>520</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+llenar()
+Agrega bolas de color aleatorio a la urna hasta que este llena.
+
+Usa el metodo generar de la clase Bola.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>715</y>
+      <w>91</w>
+      <h>286</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>494</x>
+      <y>312</y>
+      <w>221</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#2E9AFE
+Bola
+-
+_-contador: int = 0_
+-numero: int
+-color: Color
+-
++Bola(color: Color)
+_+generar(): Bola_
+&lt;&lt;accesores&gt;&gt;
++getColor(): Color
++getNumero(): int
+&lt;&lt;mutadores&gt;&gt;
+-setColor(color: Color)
+-setNumero(numero: int)
+&lt;&lt;otros metodos&gt;&gt;
+_+totalBolas(): int_
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>728</x>
+      <y>13</y>
+      <w>377</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+generar()
+Crea y devuelve una bola de color aleatorio</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>65</y>
+      <w>104</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>728</x>
+      <y>195</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+color
+NO MODIFICABLE
+NO NULO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>143</y>
+      <w>78</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>728</x>
+      <y>533</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+toString()
+"%d %s"
+numero, color</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>533</y>
+      <w>65</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>0</x>
+      <y>819</y>
+      <w>338</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+toString()
+"|%s|%s|%s| Capacidad=%d %s"
+b1, b2, b3, numBolas()/getCapacidad()
+(estaVacia() ? "VACIA" : "") + 
+(estaLlena() ? "LLENA" : "")
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>715</y>
+      <w>156</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>728</x>
+      <y>117</y>
+      <w>286</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+numero
+{&gt;=1, AUTO, NO MODIFICABLE}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>208</y>
+      <w>65</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>182</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+bg=cyan
+&lt;&lt;enum&gt;&gt;
+Color</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>182</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;usa&gt;&gt;</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>13</y>
+      <w>234</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;usa&gt;&gt;</panel_attributes>
+    <additional_attributes>120.0;130.0;120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>52</x>
+      <y>39</y>
+      <w>494</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;usa&gt;&gt;</panel_attributes>
+    <additional_attributes>360.0;150.0;360.0;170.0;10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>312</y>
+      <w>117</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=cyan
+&lt;&lt;enum&gt;&gt;
+Color
+-
+AMARILLO
+AZUL
+ROJO
+VERDE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>546</x>
+      <y>702</y>
+      <w>416</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+agregar(), agregar(bola), agregar(color)
+No es posible agregar una bola a una urna llena.
+En ese caso el programa termina con error.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>611</y>
+      <w>130</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;110.0</additional_attributes>
+  </element>
+</diagram>
