@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>17</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>85</x>
+      <y>17</y>
+      <w>34</w>
+      <h>34</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>85</x>
+      <y>34</y>
+      <w>51</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>34</x>
+      <y>187</y>
+      <w>153</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>bg=red
+ROJO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>391</x>
+      <y>187</y>
+      <w>153</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+AMARILLO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>391</x>
+      <y>408</y>
+      <w>153</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>bg=green
+VERDE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>68</x>
+      <y>238</y>
+      <w>357</w>
+      <h>289</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+pulsar botón
+
+</panel_attributes>
+    <additional_attributes>20.0;10.0;20.0;130.0;190.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>425</y>
+      <w>255</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+pulsar botón
+
+</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;80.0;110.0;80.0;110.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>102</y>
+      <w>238</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+pulsar botón / error
+
+</panel_attributes>
+    <additional_attributes>60.0;70.0;80.0;70.0;80.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>238</y>
+      <w>289</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+tiempo T1
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;100.0;150.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>238</y>
+      <w>153</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+tiempo T2
+
+</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>187</y>
+      <w>255</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+tiempo T3</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
