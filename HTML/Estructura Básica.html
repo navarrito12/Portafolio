@@ -1,0 +1,93 @@
+ESTRUCTURA BÁSICA
+<!DOCTYPE html>: Le dice al navegador que estás usando HTML.
+<html>: Envuelve todo el contenido.
+<head>: Contiene información "invisible" para el usuario, como el título de la pestaña (<title>).
+<body>: Aquí va todo lo que el usuario sí ve (párrafos, imágenes, listas).
+
+TIPOS DE LISTAS
+Listas Desordenadas (<ul>): Se usan para elementos sin un orden específico (usan "bullets" o puntos).
+Listas Ordenadas (<ol>): Se usan cuando el orden importa (1, 2, 3...).
+Elementos de lista (<li>): Es la etiqueta que envuelve cada uno de los ítems dentro de una lista, ya sea ordenada o desordenada.
+Para invertir el orden, se usa el atributo reversed en la etiqueta <ol>: <ol reversed>. * Para cambiar a números romanos, se usa el atributo type: <ol type="I">.
+
+ENLACES A IMÁGENES
+Enlaces (<a>): Se usa el atributo href para el destino.
+Ejemplo: <a href="http://google.es">Ir a Google</a>.
+
+Imágenes (<img>): Es una etiqueta que no se cierra. Usa src para la ruta y alt para el texto alternativo (muy importante para la accesibilidad).
+Ejemplo: <img src="logo.png" alt="Logo de Google">
+
+MARCADORES INTERNOS
+Para saltar a una sección de la misma página, necesitas dos pasos:
+Poner un ID al destino: <h2 id="origen">El origen</h2>.
+Crear el enlace con un almohadilla (#): <a href="#origen">Ir al origen</a>.
+
+EJEMPLO
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">	--Tabla de caractares que debe usar
+    <title>Historia de Google</title> 
+</head>
+<body>
+
+    <nav>
+        <a href="#seccion-listas">Ir a Listas</a>  
+        <a href="#seccion-google">Ir a Historia de Google</a>
+    </nav>
+
+    <hr>	--Dibuja línea horizontak que cruza la página de lado a lado
+
+    <section id="seccion-listas">
+        <h1><a href="http://www.google.es">Bienvenidos a mis ejercicios de HTML</a></h1> 
+
+        <h2>Ejercicio 1: Ingredientes de cocina (ul)</h2> 
+        <ul>
+            <li>Aceite de oliva</li>
+            <li>Sal</li>
+            <li>Tomate</li>
+            <li>Ajo</li>
+        </ul>
+
+        <h2 id="gazpacho">Ejercicio 2 y 4: 
+        <ol>
+            <li>Ingredientes para un gazpacho: 
+                <ol type="1">
+                    <li>Tomates</li> [cite: 6]
+                    <li>Pepino</li> [cite: 7]
+                </ol>
+            </li>
+            <li>Índice del libro 
+                <ol type="I">
+                    <li>Tema 1</li> [cite: 17]
+                    <li>Tema 2</li> [cite: 23]
+                </ol>
+            </li>
+        </ol>
+
+        <h2>Ejercicio 3: Lista invertida</h2> 
+        <ol reversed>
+            <li>Tercero</li>
+            <li>Segundo</li>
+            <li>Primero</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="seccion-google">
+        <h2>Historia de Google</h2>
+        
+        <a href="http://www.google.es">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+                 alt="Logo oficial de Google" width="200"> 
+        </a>
+
+        <p>
+            Larry Page y Sergey Brin comenzaron Google como un proyecto universitario en 1996. 
+            El nombre original era BackRub.
+        </p>
+    </section>
+
+</body>
+</html>
