@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <title>Ejercicio - Cuestionario</title>
+</head>
+<body>
+    <form action="enviar.php" method="post">
+        <h2>Cuestionario de Personal</h2>
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba aquí nombre y apellidos..." size="50" maxlength="60"><br><br>
+
+        <label>Turno</label><br>
+        <input type="radio" id="diurno" name="turno" value="Diurno">
+            <label for="diurno">Diurno</label><br>
+        <input type="radio" id="vespertino" name="turno" value="Vespertino">
+            <label for="vespertino">Vespertino</label><br><br>
+
+        <label for="numero">Número de miembros de la familia</label><br>
+        <input type="number" id="numero" name="numero_miembros" min="1" max="99"><br><br>
+
+        <label>Idiomas que conoce:</label><br>
+        <input type="checkbox" id="frances" name="idioma[]" value="Francés">
+            <label for="frances">Francés</label><br>
+        <input type="checkbox" id="ingles" name="idioma[]" value="Inglés">
+            <label for="ingles">Inglés</label><br><br>
+
+        <label for="comentarios">Otros:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="ENVIAR DATOS">
+        <input type="reset" value="VOLVER A COMENZAR">
+    </form>
+</body>
+</html>

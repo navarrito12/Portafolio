@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <title>Práctica de formularios</title>
+    </head>
+
+    <body>
+        <h1>Productos Mexicanos de Limpieza "PROLIM"</h1><br>
+
+        <form action="procesar_datos.php" method="post">
+            <label>Entrada (elija sólo una línea de productos):</label><br>
+            <select name="Entrada">
+                <option value="N">Ninguna</option>
+                <option value="C">Cocina</option>
+                <option value="L">Lavandería</option>
+                <option value="H">Habitat</option>
+                <option value="A">Albercas</option>
+                <option value="I">Industrial</option>
+            </select><br><br>
+
+            <label>Segundo (puede elegir más de un producto):</label><br>
+            <select name="detergentes" multiple size="4">
+                <option value="N">Ninguno</option>
+                <option value="TDLNUM">Tergen (Detergente lavaloza neutro uso manual)</option>
+                <option value="SDLPML">Spotless (Detergente liquido para maquina lavaloza)</option>
+                <option value="TPM">Track (Pasta Multiusos)</option>
+                <option value="TPAL">Triton (Prelavador alcalino líquido)</option>
+                <option value="DE">DINAMO (Desengrasante Emulsificante )</option>
+                <option value="CLV">Crystal (Limpia vidrios)</option>
+            </select><br><br>
+
+            <label>Entrada (elija sólo una línea de productos):</label><br>
+            <select name="Entrada">
+                <option value="N">Ninguna</option>
+                <option value="TDLNUM">Tergen (Detergente lavaloza neutro uso manual)</option>
+                <option value="SDLPML">Spotless (Detergente líquido para maquina lavaloza)</option>
+                <option value="TPM">Track (Pasta Multiusos)</option>
+                <option value="Ab">Albercas</option>
+                <option value="TPAL">Triton (Prelavador alcalino líquido)</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+        </form>
+    </body>
+</html>

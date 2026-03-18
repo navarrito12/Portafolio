@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <form action="formulario.php" method="post">
+            <fieldset>
+                <h3>Información sobre el producto</h3>
+
+                <fieldset style="margin-bottom: 30px;">
+                    <legend>Datos básicos</legend>
+
+                    <table>
+                        <tr>
+                            <td><label>Nombre</label></td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding-bottom: 50px;"><input type="text" size="15"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Descripción</label></td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="padding: 5px;"><textarea id="comentario" name="comentario" rows="6" cols="40"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding-top: 20px;">
+                                <label for="foto_usuario">Foto:</label>
+                                <input type="file" id="foto_usuario" name="foto_usuario" style="margin-left: 10px;">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="vistas" name="vistas" value="V">
+                                <label for="vistas">Añadir contador de visitas</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos económicos</legend>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="precio">Precio</label>
+                                <input type="texto" id="precio" name="precio" size="2">
+                                <label for="precio">€</label>
+
+                                <label for="precio" style="margin-left: 20px;">Impuestos</label>
+                                <select name="porcentaje">
+                                    <option value="4">4%</option>
+                                    <option value="7">7%</option>
+                                    <option value="16">16%</option>
+                                    <option value="25">25%</option>
+                                </select>
+                        </tr>
+
+                        <tr>
+                            <td><label for="descuentos">Promoción</label></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" id="N" name="N">
+                                    <label for="N">Ninguno</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" id="Tg" name="Tg">
+                                    <label for="Tg">Transporte gratuito</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" id="D5" name="D5">
+                                    <label for="D5">Descuento 5%</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <title>Práctica de formularios</title>
+    </head>
+
+    <body>
+        <form action="procesa.php" method="post">
+            Escriba su usuario:
+            <input type="text" name="usuario" size="10" maxlength="12">
+            <input type="submit" value="Enviar datos"> <br>
+            <input type="reset" value="Borrar datos"> <br><br>
+            
+            Contraseña:
+            <input type="password" name="clave" size="10" maxlength="12"> 
+            <input type="submit" value="Enviar"> <br>
+            <input type="submit" value="Borrar"> <br><br>
+
+            Sugerencias o Comentarios:
+            <textarea name="Comentarios" rows="6" cols="40"> 
+            </textarea> <br><br>
+
+            ¿Cómo contacto con nosotros?
+            <select name="Contacto">
+                <option value=”casualidad”>Por casualidad </option>
+                <option value=”periodico”>Por el periódico </option>
+                <option value=”buscadores”>En los buscadores </option>
+                <option value=”comentario”>Me lo comentaron </option>
+            </select> <br><br>
+
+            <input type="checkbox" name="Lista">
+            Sí, deseo recibir información acerca de sus productos. <br><br>
+
+            ¿Cuál es su sistema operativo preferido?
+            <br/>
+            <input type="radio" name="SistemaOperativo" value="NT" checked>Windows
+            <input type ="radio" name="SistemaOperativo" value="Mac">Mac OS
+            <input type ="radio" name="SistemaOperativo" value="Unix">Unix
+        </form>
+    </body>
+</html>

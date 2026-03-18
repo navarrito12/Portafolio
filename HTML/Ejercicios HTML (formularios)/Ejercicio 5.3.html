@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio</title>
+    </head>
+
+    <body>
+        <h1>Ficha de datos</h1>
+        
+        <form action="mailto:profesor@ejemplo.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Toma de datos</legend>
+                <table>
+                    <tr>
+                        <td><label>Nombre:</label></td>
+                        <td><input type="text" name="nombre" size="10"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Primer Apellido:</label></td>
+                        <td><input type="text" name="apellido1" size="10"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Segundo Apellido:</label></td>
+                        <td><input type="text" name="apellido2" size="10"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label> Domicilio:</label></td>
+                        <td><input type="text" name="dirección" size="20"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Heavy metal:</label></td>
+                        <td>
+                            <label for="gusta">Me gusta:</label>
+                            <input type="radio" id="gusta" name="music" value="1">
+                            
+                            <label for="vida">Es mi vida:</label>
+                            <input type="radio" id="vida" name="music" value="2">
+                        </td>     
+                    </tr>
+
+                    <tr>
+                        <td><label>Series favoritas:</label></td>
+                        <td>
+                            <label for="tierra">A dos metros bajo tierra:</label>
+                            <input type="checkbox" id="tierra" name="pelicula" value="T">
+                            
+                            <label for="futur">Futurama:</label>
+                            <input type="checkbox" id="futur" name="pelicula" value="F">
+
+                            <label for="informática">Los ingormáticos:</label>
+                            <input type="checkbox" id="informática" name="pelicula" value="I">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" id="enviar" value="Enviar datos">
+                        </td>
+
+                        <td colspan="1">
+                            <input type="reset" id="borrar" value="Borrar datos">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
